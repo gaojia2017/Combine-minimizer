@@ -1,6 +1,7 @@
 # Combine-minimizer
 The  source code of combine minimizer for sequence-to-graph alignment.
-The main work  borrowed giraffe's alignment framework and modified the seed selection and positioning parts(vg/deps/include/gbwtgraph).
+
+Combine minimizer is the combined hashing of adjacent minimizer seeds. The main work  borrowed giraffe's alignment framework and modified the seed selection and positioning parts(vg/deps/include/gbwtgraph).
 If run the code, change the include files.
 
 And change find-minimizers function in minimizer_mapper.cpp
